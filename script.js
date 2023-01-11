@@ -50,7 +50,7 @@ function onDataFailed(error) {
 function renderPage() {
   //sort products by price
   let tempProductArray = productsArray;
-  tempProductArray = filterBySearch(productsArray, searchValue);
+  tempProductArray = filterBySearch(tempProductArray, searchValue);
   tempProductArray.sort(compareByPriceFunction);
   tempProductArray = filterByPrice(
     tempProductArray,
