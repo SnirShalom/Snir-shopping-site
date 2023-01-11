@@ -50,12 +50,12 @@ function onDataFailed(error) {
 function renderPage() {
   //sort products by price
   let tempProductArray = productsArray;
+  tempProductArray = filterBySearch(productsArray, searchValue);
   tempProductArray.sort(compareByPriceFunction);
   tempProductArray = filterByPrice(
     tempProductArray,
     filterByPriceValueArray[+filterByPriceSelectedValue]
   );
-  tempProductArray = filterBySearch(productsArray, searchValue);
 
   const productsHTML = createProductList(tempProductArray);
   productContainer.innerHTML = "";

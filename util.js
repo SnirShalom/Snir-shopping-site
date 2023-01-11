@@ -65,6 +65,7 @@ function filterByPrice(productArray, priceRange) {
       return false;
     }
   });
+  console.log(filteredArray);
   return filteredArray;
 }
 
