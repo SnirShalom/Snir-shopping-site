@@ -1,0 +1,70 @@
+{
+  "header": [
+    {
+      "title": "My Shop"
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "name": "Black Tea",
+      "price": "23",
+      "description": "the better tea",
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": 1,
+      "name": "Green Tea",
+      "price": "34",
+      "description": "the worst tea",
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": 1,
+      "name": "Black Coffee",
+      "price": "10",
+      "description": "the better tea",
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": 1,
+      "name": "Milk",
+      "price": "54",
+      "description": "it's just milk",
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": 1,
+      "name": "Water",
+      "price": "5",
+      "description": "Ahhh... Water",
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": 1,
+      "name": "Orange Juice",
+      "price": "23",
+      "description": "Made from Oranges",
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ]
+}
